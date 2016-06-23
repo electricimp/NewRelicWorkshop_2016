@@ -24,7 +24,7 @@ Use the instructions below to send data from an Electric Imp Device to the New R
 - Power the Imp using the USB cable
 - BlinkUp Imp
 
-For instructions on BlinkUp click [here](https://electricimp.com/docs/gettingstarted/quickstartguide/)
+For instructions on BlinkUp click [here](https://electricimp.com/docs/gettingstarted/quickstartguide/) <br>
 For information on Connecting Tails click [here](https://electricimp.com/docs/tails/)
 
 ### Software Setup
@@ -33,9 +33,12 @@ For information on Connecting Tails click [here](https://electricimp.com/docs/ta
 - Create a *New Model* and assign device to that model
 - Copy and Paste the **Device Monitoring Example Code** found in this repository into your model
 - In the Agent Code enter your New Relics Account Number and API key on lines 3 & 4
-- Hit **Build and Run**
+- Hit *Build and Run*
+
+For indtrucitons on using the Electric Imp IDE click [here](https://electricimp.com/docs/gettingstarted/ide/)
 
 ## More Resources
 
 Electric Imp [Dev Center](https://electricimp.com/docs/)
+<br>
 [New Relic Insights](https://newrelic.com/insights)
