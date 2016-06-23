@@ -44,8 +44,8 @@ function logEnvData() {
         //******************* logging **********************
         local envLogData = {};
         envLogData.devId <- devId;
-        envLogData.temp <- format("%.1f", result.temperature);
-        envLogData.humid <- format("%.0f", result.humidity);
+        envLogData.temp <- format("%.1f", result.temperature).tofloat();
+        envLogData.humid <- format("%.0f", result.humidity).tofloat();
         server.log("temp: " + envLogData.temp + "C, humid: " + envLogData.humid + "%");
 
         // Send message to agent
