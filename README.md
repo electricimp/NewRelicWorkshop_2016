@@ -42,3 +42,6 @@ For indtrucitons on using the Electric Imp IDE click [here](https://electricimp.
 Electric Imp [Dev Center](https://electricimp.com/docs/)
 <br>
 [New Relic Insights](https://newrelic.com/insights)
+
+## License
+All example code in this repository is licensed under the [MIT License](./LICENSE).
