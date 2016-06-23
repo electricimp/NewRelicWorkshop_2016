@@ -11,8 +11,9 @@ device.on("envlog", function(data) {
     local insightsData = {
         "ts" : time(),
         "devId" : data.devId,
-        "temp" : data.temp
-        "humid" : data.humid
+        "temp" : data.temp,
+        "humid" : data.humid,
+        "lightLevel" : data.lightLevel
     };
 
     server.log("--- envData ---");
@@ -20,6 +21,7 @@ device.on("envlog", function(data) {
     server.log("devId: " + insightsData.devId);
     server.log("temp: " + insightsData.temp);
     server.log("humid: " + insightsData.humid);
+    server.log("lightLevel: " + insightsData.lightLevel);
 
     // Send asynchronously
     insights.sendEvent("envData", insightsData, function(err, result) {
@@ -28,9 +30,6 @@ device.on("envlog", function(data) {
             server.error(err);
             return;
         }
-
-        // Otherwise, log success
-        // server.log("Success");
     });
 });
 
@@ -39,16 +38,16 @@ device.on("applog", function(data) {
     local insightsData = {
         "ts" : time(),
         "devId" : data.devId,
-        "lightLevel" : data.lightLevel
-        "freeMem" : data.freeMem
-        "wifiSignal" : data.wifiSignal
+        "voltage" : data.voltage,
+        "freeMem" : data.freeMem,
+        "wifiSignal" : data.wifiSignal,
         "rtt" : data.rtt
     };
 
     server.log("*** appData ***");
     server.log("ts: " + insightsData.ts);
     server.log("devId: " + insightsData.devId);
-    server.log("lightLevel: " + insightsData.lightLevel);
+    server.log("voltage: " + insightsData.voltage);
     server.log("freeMem: " + insightsData.freeMem);
     server.log("wifiSignal: " + insightsData.wifiSignal);
     server.log("rtt: " + insightsData.rtt);
@@ -60,9 +59,6 @@ device.on("applog", function(data) {
             server.error(err);
             return;
         }
-
-        // Otherwise, log success
-        // server.log("Success");
     });
 
 })

@@ -31,8 +31,11 @@ For information on Connecting Tails click [here](https://electricimp.com/docs/ta
 
 - Log into the Electric Imp IDE using your developer account credentials
 - Create a *New Model* and assign device to that model
-- Copy and Paste the **Device Monitoring Example Code** found in this repository into your model
-- In the Agent Code enter your New Relics Account Number and API key on lines 3 & 4
+- Copy and Paste the agent and device code found in the *Example Code* folder into your model
+  - There are two code examples in the Example Code folder
+    - Challenge 1 - EnvironmentalMonitoringExample
+    - Challenge 2 - DeviceMonitoringExample
+- In the agent code enter your New Relics Account Number and API key on lines 3 & 4
 - Hit *Build and Run*
 
 For indtrucitons on using the Electric Imp IDE click [here](https://electricimp.com/docs/gettingstarted/ide/)
