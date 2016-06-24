@@ -38,7 +38,6 @@ device.on("applog", function(data) {
     local insightsData = {
         "ts" : time(),
         "devId" : data.devId,
-        "voltage" : data.voltage,
         "freeMem" : data.freeMem,
         "wifiSignal" : data.wifiSignal,
         "rtt" : data.rtt
@@ -47,7 +46,6 @@ device.on("applog", function(data) {
     server.log("*** appData ***");
     server.log("ts: " + insightsData.ts);
     server.log("devId: " + insightsData.devId);
-    server.log("voltage: " + insightsData.voltage);
     server.log("freeMem: " + insightsData.freeMem);
     server.log("wifiSignal: " + insightsData.wifiSignal);
     server.log("rtt: " + insightsData.rtt);

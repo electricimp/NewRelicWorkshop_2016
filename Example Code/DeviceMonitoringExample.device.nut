@@ -12,9 +12,6 @@ tempHumid <- Si702x(hardware.i2c89);
 ledPin <- hardware.pin2;
 ledPin.configure(DIGITAL_OUT, 0);
 
-// Configure pin9 for voltage reading
-hardware.pin9.configure(ANALOG_IN);
-
 // Heartbeat blink
 function blinkHeartbeat() {
     ledPin.write(1);
@@ -55,7 +52,6 @@ function logAppData() {
 
     local appLogData = {};
     appLogData.devId <- devId;
-    appLogData.voltage <- getPin9Voltage();
     appLogData.freeMem <- imp.getmemoryfree();
     appLogData.wifiSignal <- imp.getrssi();
     appLogData.rtt <- rtt;
@@ -63,13 +59,6 @@ function logAppData() {
     // Send message to agent
     agent.send("applog", appLogData);
 
-}
-
-function getPin9Voltage() {
-    // Returns value in volts, between 0.0 and 3.3
-    local voltage = hardware.voltage();
-    local reading = hardware.pin9.read();
-    return (reading / 65535.0) * voltage;
 }
 
 function testRoundtrip() {
