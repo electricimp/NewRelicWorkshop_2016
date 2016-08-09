@@ -7,15 +7,16 @@ Use the instructions below to send data from an Electric Imp Device to the New R
 ### What you need:
 
 - [A free Electric Imp developer account](ide.electricimp.com)
-- The Electric Imp Phone App
-- [A New Relic Insights Account](https://newrelic.com/insights)
-  - Account Number
-  - API Key
+- The Electric Imp Phone App ([iOS](https://itunes.apple.com/us/app/electric-imp/id547133856?mt=8)) ([Android](https://play.google.com/store/apps/details?id=com.electricimp.electricimp&hl=en))
+- [A New Relic Account with Insights](https://newrelic.com/insights) ([sign up](https://newrelic.com/signup))
+  - [Account Number](https://docs.newrelic.com/docs/accounts-partnerships/accounts/account-setup/account-id) https://account.newrelic.com/accounts/ACCOUNT_ID/
+  - [Insights Insert API Key](https://docs.newrelic.com/docs/insights/new-relic-insights/adding-querying-data/insert-custom-events-insights-api#register)
 - [An Electric Imp developer kit](https://www.amazon.com/WiFi-Environmental-Sensor-LED-kit/dp/B00ZQ4D1TM/ref=pd_bxgy_23_img_2?ie=UTF8&refRID=YGQMS8GHCQ9EC2C3NV70)
   - Imp001
   - April
   - Env Tail
   - USB cable
+- WiFi password (at New Relic, connect to NR-GUEST and get the password from an organizer)
 
 ### Hardware Setup
 
@@ -35,10 +36,10 @@ For information on Connecting Tails click [here](https://electricimp.com/docs/ta
   - There are two code examples in the Example Code folder
     - Challenge 1 - EnvironmentalMonitoringExample
     - Challenge 2 - DeviceMonitoringExample
-- In the agent code enter your New Relics Account Number and API key on lines 3 & 4
+- In the agent code enter your New Relic Account Number and Insights Insert API key on lines 3 & 4
 - Hit *Build and Run*
 
-For indtrucitons on using the Electric Imp IDE click [here](https://electricimp.com/docs/gettingstarted/ide/)
+For instrucitons on using the Electric Imp IDE click [here](https://electricimp.com/docs/gettingstarted/ide/)
 
 ## More Resources
 
