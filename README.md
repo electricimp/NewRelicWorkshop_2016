@@ -36,7 +36,7 @@ For information on Connecting Tails click [here](https://electricimp.com/docs/ta
   - There are two code examples in the Example Code folder
     - Challenge 1 - EnvironmentalMonitoringExample
     - Challenge 2 - DeviceMonitoringExample
-- In the agent code enter your [New Relic Account Number](https://account.newrelic.com/accounts/ACCOUNT_ID/) and Insights Insert API key on lines 3 & 4
+- In the agent code enter your New Relic Account Number and Insights Insert API key on lines 3 & 4
 - Hit *Build and Run*
 
 For instrucitons on using the Electric Imp IDE click [here](https://electricimp.com/docs/gettingstarted/ide/)
