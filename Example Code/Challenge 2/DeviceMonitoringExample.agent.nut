@@ -27,9 +27,10 @@ device.on("envlog", function(data) {
     insights.sendEvent("envData", insightsData, function(err, result) {
         // If there was an issue, report it
         if (err != null) {
-            server.error(err);
+            server.error(http.jsonencode(err));
             return;
         }
+        server.log("envData successfully sent to New Relic Insights.");
     });
 });
 
@@ -54,9 +55,10 @@ device.on("applog", function(data) {
     insights.sendEvent("appData", insightsData, function(err, result) {
         // If there was an issue, report it
         if (err != null) {
-            server.error(err);
+            server.error(http.jsonencode(err));
             return;
         }
+        server.log("appData successfully sent to New Relic Insights.");
     });
 
 })
