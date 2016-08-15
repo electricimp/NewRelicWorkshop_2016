@@ -11,11 +11,11 @@ Use the instructions below to send data from an Electric Imp Device to the New R
 - [A New Relic Account with Insights](https://newrelic.com/insights) ([sign up](https://newrelic.com/signup))
   - [Account Number](https://docs.newrelic.com/docs/accounts-partnerships/accounts/account-setup/account-id) https://account.newrelic.com/accounts/ACCOUNT_ID/
   - [Insights Insert API Key](https://docs.newrelic.com/docs/insights/new-relic-insights/adding-querying-data/insert-custom-events-insights-api#register)
-- [An Electric Imp developer kit](https://www.amazon.com/WiFi-Environmental-Sensor-LED-kit/dp/B00ZQ4D1TM/ref=pd_bxgy_23_img_2?ie=UTF8&refRID=YGQMS8GHCQ9EC2C3NV70)
+- An [Electric Imp developer kit](https://www.amazon.com/Electric-Imp-imp001-dev-kit/dp/B00ZQ45KXM/ref=pd_sim_147_1?ie=UTF8&dpID=41kM280MN1L&dpSrc=sims&preST=_AC_UL160_SR120%2C160_&psc=1&refRID=913B9ACV3PCMFA0YH3DA)
   - Imp001
   - April
-  - Env Tail
   - USB cable
+- An Electric Imp Environmental Sensor Tail - currently not for sale, available at the workshop
 - WiFi password (at New Relic, connect to NR-GUEST and get the password from an organizer)
 
 ### Hardware Setup
