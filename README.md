@@ -6,7 +6,7 @@ Use the instructions below to send data from an Electric Imp Device to the New R
 
 ### What you need:
 
-- [A free Electric Imp developer account](ide.electricimp.com)
+- [A free Electric Imp developer account](https://ide.electricimp.com)
 - The Electric Imp Phone App ([iOS](https://itunes.apple.com/us/app/electric-imp/id547133856?mt=8)) ([Android](https://play.google.com/store/apps/details?id=com.electricimp.electricimp&hl=en))
 - [A New Relic Account with Insights](https://newrelic.com/insights) ([sign up](https://newrelic.com/signup))
   - [Account Number](https://docs.newrelic.com/docs/accounts-partnerships/accounts/account-setup/account-id) https://account.newrelic.com/accounts/ACCOUNT_ID/
