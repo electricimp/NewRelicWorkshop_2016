@@ -17,13 +17,13 @@ See the **Workshop and Demo overview** section of the included slide deck for st
 ## More Resources
 
 - Electric Imp [Dev Center](https://electricimp.com/docs/)
-- [BlinkUp](https://electricimp.com/docs/gettingstarted/quickstartguide/) <br>
-- [Connecting Tails](https://electricimp.com/docs/tails/)
-- Electric Imp [IDE](https://electricimp.com/docs/gettingstarted/ide/)
+  - [BlinkUp](https://electricimp.com/docs/gettingstarted/quickstartguide/) <br>
+  - [Connecting Tails](https://electricimp.com/docs/tails/)
+  - [IDE](https://electricimp.com/docs/gettingstarted/ide/)
 
 - [New Relic Insights](https://newrelic.com/insights)
-- [Account Number](https://docs.newrelic.com/docs/accounts-partnerships/accounts/account-setup/account-id)
-- [Insights Insert API Key](https://docs.newrelic.com/docs/insights/new-relic-insights/adding-querying-data/insert-custom-events-insights-api#register)
+  - [Account Number](https://docs.newrelic.com/docs/accounts-partnerships/accounts/account-setup/account-id)
+  - [Insights Insert API Key](https://docs.newrelic.com/docs/insights/new-relic-insights/adding-querying-data/insert-custom-events-insights-api#register)
 
 ## License
 All example code in this repository is licensed under the [MIT License](./LICENSE).
