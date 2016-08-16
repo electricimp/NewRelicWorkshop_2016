@@ -1,6 +1,6 @@
 # New Relic Workshop
 
-In this workshop we will use and Electric Imp device to collect sensor data and the New Relic Insights Platform to  visualize that data.
+In this workshop we will use an Electric Imp device to collect sensor data and the New Relic Insights Platform to  visualize that data.
 
 ## What you need:
 
